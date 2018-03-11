@@ -1,7 +1,70 @@
 body {
     margin: 0 auto;
     padding: 0;
-    background-color: #efeee7;
+    background-image: url(/Users/conoroneil/Desktop/Basic-Portfolio/assets/images/dust_scratches.png);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #7777777;
+    
+
+}
+
+.bio-image {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    float: left;
+
+}
+
+h {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+
+}
+
+.name-header {
+    background-color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #333333
+    color: #ffffff;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    background-position-x: 50px;
+
+
+}
+
+.page-name {
+    background-color: #ffffff;
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 100px;
+    line-height: 100px;
+    border-bottom: 20px #dddddd;
+    width: 960px;
+    margin: 0 auto;
+
+
+}
+
+link {
+    float: :right;
+    width: 960px;
+
+
+}
+
+section {
+    background-color: #ffffff;
+    width: 960px;
+    margin: 0 auto;
+
+}
+
+.portfolio-img {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
 }
