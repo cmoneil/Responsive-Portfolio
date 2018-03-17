@@ -1,4 +1,4 @@
-<! DOCTYPE html>
+<!DOCTYPE html>
 
 <html lang="en">
 
@@ -13,28 +13,44 @@
 
     <body>
          
-        <header class="name-header">
-            <h1>Conor O'Neil</h1>
-        </header>
-
-        <link>
-            <a href=index.html>About</a>
-            <a href=portfolio.html>Portfolio</a>
-            <a href=contact.html>Contact</a>
-        </link>
-
-        <header class="page-name">
-            <h2>Contact</h2>
-        </header>
+            <header>
+                    <div class="header-content">
+                        <h1>Conor O'Neil</h1>
+                        <nav>
+                        <ul>
+                            <li><a href=index.html>About</a></li>
+                            <li><a href=portfolio.html>Portfolio</a></li>
+                            <li><a href=contact.html>Contact</a></li>
+                        </ul>
+                        </nav>
+                    </div>
+                </header>
+                
         
-        <form>
-            Name<br>
-            <input type="text" name="name" value="John Smith"><br>
-            Email<br>
-            <input type="email" name="email" value="example@gmail.com"><br>
-            Message<br>
-            <textarea  name="message" rows="10" cols="30"></textarea> <br>
-            <input type="button" onclick"alert('Submitted')" value="Submit">
-        </form>
+            <section>
+       
+                <header class="page-name">
+                    <h2>Contact</h2>
+                </header>
+        
+                <form>
+                    Name<br>
+                    <div class="input-field">
+                    <input type="text" name="name" value="John Smith"><br>
+                    Email<br>
+                    <input type="email" name="email" value="example@gmail.com"><br>
+                     </div>
+                    Message<br>
+                    <textarea  name="message" rows="10" cols="30"></textarea> <br>
+                    <input class="button" type="button" onclick="alert('Submitted')" value="Submit">
+                </form>
+        
+                <div class="clear"></div>
+
+            </section>
+
+            <div class="push"></div>
+
+    <footer class="footer">Copyright©</footer>
 
     </body>
