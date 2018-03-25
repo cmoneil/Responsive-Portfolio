@@ -2,58 +2,95 @@
 
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-
-    
-        
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<head>
+    <meta charset="UTF-8">
 
 
 
-        <title>Conor O'Neil Contact Form</title>
-    </head>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
-    <body>
-         
-            <header>
-                    <div class="header-content">
-                        <h1>Conor O'Neil</h1>
-                        <nav>
-                        <ul>
-                            <li><a href=index.html>About</a></li>
-                            <li><a href=portfolio.html>Portfolio</a></li>
-                            <li><a href=contact.html>Contact</a></li>
-                        </ul>
-                        </nav>
-                    </div>
-                </header>
-                
-        
+    <meta name="viewport" content="width-device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+
+
+
+    <title>Conor O'Neil Contact Form</title>
+</head>
+
+<body>
+
+
+    <header>
+        <div class="header-content">
+            <h1>Conor O'Neil</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href=index.html>About</a>
+                    </li>
+                    <li>
+                        <a href=portfolio.html>Portfolio</a>
+                    </li>
+                    <li>
+                        <a href=contact.html>Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+
+    <div class="row">
+        <div class="column1">
             <section>
-       
                 <header class="page-name">
                     <h2>Contact</h2>
                 </header>
-        
+
                 <form>
-                    Name<br>
+                    Name
+                    <br>
                     <div class="input-field">
-                    <input type="text" name="name" value="John Smith"><br>
-                    Email<br>
-                    <input type="email" name="email" value="example@gmail.com"><br>
-                     </div>
-                    Message<br>
-                    <textarea  name="message" rows="10" cols="30"></textarea> <br>
+                        <input type="text" name="name" value="John Smith">
+                        <br> Email
+                        <br>
+                        <input type="email" name="email" value="example@gmail.com">
+                        <br>
+                    </div>
+                    Message
+                    <br>
+                    <textarea name="message" rows="10" cols="30"></textarea>
+                    <br>
                     <input class="button" type="button" onclick="alert('Submitted')" value="Submit">
                 </form>
-        
+
                 <div class="clear"></div>
 
             </section>
+        </div>
 
-            <div class="push"></div>
 
-    <footer class="footer">Copyright©</footer>
+        <div class="column2">
+            <section>
+                <div class="connect">
+                    <div class="page-name">
+                        <h3>Connect with Me</h3>
+                    </div>
+                    <div class="icons">
+                        <i class="fa fa-github-square" style="font-size:70px;"></i>
+                        <i class="fa fa-linkedin-square" style="font-size:70px;color:#007BB6;"></i>
+                        <i class="fa fa-stack-overflow" style="font-size:70px;color: orange;"></i>
+                    </div>
+                </div>
+            </section>
+        </div>
+        </div>
 
-    </body>
+        <div class="push"></div>
+
+        <footer class="footer">Copyright©</footer>
+
+</body>

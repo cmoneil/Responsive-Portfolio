@@ -13,13 +13,33 @@ header {
 
 
 .header-content {
-    max-width: 960px;
+    max-width: 100%;
     margin: 0 auto;
     }
 
 nav {
     float: right;
-    margin-top: 15px;
+    padding-top: 15px;
+    background-color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+    ul.list-inline {
+        text-align: center;
+        
+        
+    }
+    nav {
+        width: 100%;
+        height: 50px;
+        border-bottom: solid 2px #dddddd;
+        
+
+    }
+    h1 {
+        width: 100%;
+        text-align: center;
+    }
 }
 
 nav ul {
@@ -32,6 +52,7 @@ li {
     border-right: solid 1px #666666;
     color: #777777;
     padding: 0px 10px;
+    background-color: #ffffff;
 }
 
 nav li:last-child{
@@ -42,6 +63,7 @@ a {
     text-decoration: none;
     color: inherit;
     padding: 15px 15px;
+    background-color: #ffffff
 }
 
 a:link { 
@@ -60,6 +82,42 @@ a:active {
      color: black; 
 }
 
+.column1 {
+    float: left;
+    width: 90%;
+    padding: 10px;
+}
+
+.column2 {
+    float: left;
+    width: 90%;
+    padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (min-width: 769px) {
+    .column1 {
+        width: 60%;
+    }
+    .column2 {
+        width: 25%;
+    }
+
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 768px) {
+    .column1 .column2 {
+        width: 90%;
+    }
+}
 h1 {
     margin: 0;
     padding: 15px;
@@ -74,18 +132,27 @@ h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+h3 {
+    margin: 0 auto;
+    
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 .bio-image {
-    width: 300px;
-    height: 300px;
     margin: 15px 15px 15px 0;
-    float: left;
+    float: none;
 }
 
 .page-name {
     background-color: #ffffff;
     color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    height: 85px;
+
     line-height: 70px;
     border-bottom: 2px #dddddd solid;
     font-size: 20px;
@@ -94,7 +161,7 @@ h2 {
 
 section {
     background-color: #ffffff;
-    width: 960px;
+    width: 100%;
     margin: 0 auto;
     margin-top: 45px;
     border-style: solid;
@@ -104,6 +171,7 @@ section {
     height: auto;
     box-sizing: border-box;
 }
+
 
 .footer,
  .push
@@ -122,8 +190,8 @@ footer {
 
 
 .portfolio-img {
-    width: 300px;
-    height: 300px;
+    max-width: 100%;;
+    height: auto;
 }
 
 .img-box {
@@ -135,14 +203,15 @@ footer {
     color: #fff;
     font-family: Georgia, 'Times New Roman', Times, serif;
     bottom: 20px;
-    width: 270px;
+    width: 90%;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .a1 {
     text-decoration: none;
     color: inherit;
-    padding: 25px 25px 0px 0px;
+    padding-top: 25px;
     display: block;
     float: left;
     box-sizing: border-box;
@@ -178,4 +247,13 @@ textarea {
 
 .clear {
     clear: both;
+}
+
+connect {
+    width: 100%;
+}
+
+
+.icons i {
+    padding: 10px
 }
